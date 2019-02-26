@@ -4,8 +4,8 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:+'
-        classpath 'com.google.gms:google-services:4.1.0'
+        classpath 'com.android.tools.build:gradle:3.2.0'
+        classpath 'com.google.gms:google-services:+'
     }
 }
 repositories {
@@ -24,6 +24,6 @@ dependencies {
 }
 
 cdvPluginPostBuildExtras.add({
-    apply plugin: 'com.google.gms.google-services'
     apply plugin: 'io.fabric'
+    apply plugin: 'com.google.gms.google-services'
 })
