@@ -54,10 +54,10 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 			<receiver android:name="org.apache.cordova.firebase.OnNotificationOpenReceiver"></receiver>
 		</config-file>
 
-		<config-file target="src/android/google-services.json">
+		<!-- <config-file target="src/android/google-services.json">
 			<string name="google_app_id">@string/1:455502910495:android:828bc816ec1a1ee8</string>
 	 		<string name="google_api_key">@string/AIzaSyA5LAzq6C8LrvBFj6qEaPR3c_ytJ83PYwg</string>
-		</config-file>
+		</config-file> -->
 
 		<resource-file src="src/android/google-services.json" target="."/>
 		<resource-file src="src/android/cordova-plugin-firebase-strings.xml" target="res/values/cordova-plugin-firebase-strings.xml" />
